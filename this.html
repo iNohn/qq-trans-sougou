@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>qq拼音－搜狗拼音词库互转器</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="csssource.css">
+</head>
+<body>
+	<div id="wrapper">
+		<textarea id="repo"></textarea>
+		<p><button id="qs">qq转搜狗</button></p>
+		<!-- <p><button id="sq">搜狗转qq</button></p> -->
+		<div id="guide">
+			<h3>操作指引：</h3>
+			<ul>
+				<li><p>备份qq拼音的词库。该过程会生成一个txt文件。</p></li>
+				<li><p>用记事本打开这个txt文件，全选复制。</p></li>
+				<li><p>将文本内容拷贝到网页中的文本框内。如果最后出现空行，请将此空行删除。</p></li>
+				<li><p>按下“qq转搜狗”按钮，等待到弹出提示框，点确定。此时词库已经转换完毕。</p></li>
+				<li><p>将文本框内的文本拷贝到一个新的txt文件中，保存。</p></li>
+				<li><p>这时，用搜狗拼音的导入词库功能，就可以把词库导入到搜狗输入法内了。</p></li>
+			</ul>
+		</div>
+		<div id="caution">
+			<h3>注意事项：</h3>
+			<ul>
+				<li>
+					<p>如果词条数在3000条以下的话，转换过程基本都可以秒杀。</p>
+					<p>如果词条数过多，或者电脑cpu性能相对较差，请耐心等待提示框的出现。</p>
+					<p>在提示框出现之前，请勿操作该页面，防止页面出现不可预料的崩溃。</p>
+				</li>
+				<li>请务必在转换前检查、去掉最后的空行，防止不可预料的事情发生，如无法被搜狗输入法读取等。</li>
+				<li>
+					<p>本工具暂时仅支持在win平台下运行。</p>
+					<p>当然，在mac和linux上也是可以的，但是请勿在后两者上处理词库，保存成txt文件，然后拷至win下添加。</p>
+					<p>否则搜狗输入法将无法读取词库。</p>
+				</li>
+				<li>
+					<p>我目前仅测试了chrome浏览器的兼容性。</p>
+					<p>如果没有十足的把握，请仅在chrome内核的浏览器下进行转换（例如搜狗浏览器高速模式）。</p>
+					<p>否则对于可能出现的灵异现象本人不予负责。</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="jssource.js"></script>
+</body>
+</html>
