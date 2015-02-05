@@ -1,4 +1,4 @@
-var qsbutton = document.getElementById("qs") ;
+var qsbutton = document.getElementById("qs");
 // var sqbutton = document.getElementById("sq");
 var repo = document.getElementById("repo");
 qsbutton.onclick = function(){
