@@ -23,3 +23,7 @@ li p {
 li {
 	list-style-type: decimal;
 }
+strong {
+	color: red;
+	font-weight: 800;
+}
